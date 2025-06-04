@@ -1,46 +1,32 @@
 ---
-title: Introducción a los Servicios de Integración con Microsoft
-description: slñsl.
-
+title: Módulo de Reclutamiento
+description: Optimización de la Adquisición de Talento mediante tecnología avanzada e inteligencia artificial.
 ---
 
-## Visión General
-
-La siguiente documentación describe los servicios desarrollados para facilitar la integración con las diversas APIs y servicios de Microsoft en nuestra aplicación Laravel. Estos servicios han sido diseñados con un enfoque modular, donde cada uno cumple una función específica dentro del ecosistema de integración con Microsoft.
-
-## Servicios Disponibles
-
-### 1. MicrosoftAuthTokenService
-
-Servicio especializado en la gestión de tokens de autenticación para los servicios de Microsoft. Este componente maneja el ciclo de vida completo de los tokens OAuth 2.0, incluyendo su obtención, almacenamiento en caché y renovación automática cuando expiran.
-
-**Caso de uso principal:** Autenticación centralizada para cualquier servicio de Microsoft que requiera tokens OAuth.
 
 
-### 2. MicrosoftGraphUserService
+## Funcionalidades Clave
 
-Se especializa en la obtención de información relacionada con usuarios desde Microsoft Graph API, con un enfoque particular en la gestión de pertenencia a grupos de Azure AD.
+### Gestión de Publicaciones de Vacantes
+Permite a los usuarios crear, editar y publicar ofertas de empleo de forma intuitiva, abarcando todos los detalles necesarios para atraer al talento adecuado.
 
-**Caso de uso principal:** Autorización basada en grupos y obtención de información de usuario para personalización.
+### Evaluación de CVs con Inteligencia Artificial (IA)
+Incorpora un sistema de IA avanzada para el análisis de currículums. Esta funcionalidad agiliza la preselección de candidatos al identificar automáticamente perfiles que se ajustan a los requisitos de la vacante, basándose en palabras clave, experiencia y habilidades relevantes.
 
-## Arquitectura de Integración
+### Proceso de Evaluación Integral
+Facilita la gestión de las diferentes etapas del proceso de evaluación, desde entrevistas iniciales hasta pruebas técnicas o psicométricas. El módulo permite el seguimiento del progreso de cada candidato y la colaboración entre los reclutadores.
 
-Estos servicios están diseñados para trabajar de manera coordinada:
+## Beneficios Principales
 
-1. **MicrosoftAuthTokenService** proporciona tokens de autenticación válidos
+### Eficiencia Mejorada
+Automatiza tareas repetitivas y reduce el tiempo invertido en la revisión manual de currículums.
 
+### Calidad en la Contratación
+La IA ayuda a identificar a los candidatos más cualificados, mejorando la precisión en la selección.
 
-## Configuración Requerida
+### Experiencia del Candidato
+Ofrece un proceso de solicitud y seguimiento más claro y estructurado para los aspirantes.
 
-Para utilizar estos servicios, es necesario configurar adecuadamente las credenciales de aplicación en Microsoft Azure, así como establecer las variables de entorno correspondientes en el archivo `.env` de Laravel.
+## Conclusión
 
-Consulte la documentación específica de cada servicio para conocer los detalles de configuración particulares.
-
-## Consideraciones de Seguridad
-
-Estos servicios manejan tokens de acceso que otorgan permisos a recursos potencialmente sensibles. Por ello:
-
-- Los tokens nunca deben exponerse al frontend
-- Se implementa almacenamiento en caché para minimizar las llamadas con credenciales
-- Se siguen las mejores prácticas de OAuth 2.0 para la gestión de tokens
-
+Este módulo de Reclutamiento representa una solución integral para las necesidades de talento, utilizando tecnología de vanguardia para transformar y modernizar los flujos de trabajo de recursos humanos.

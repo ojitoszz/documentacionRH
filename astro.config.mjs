@@ -23,7 +23,9 @@ export default defineConfig({
 					label: 'Reclutamiento',
 					items: [
 						{ label: 'Introduccion', slug: 'service/intro' }, 
-						{ label: 'SOlicitud de personal', slug: 'service/req' },  
+						{ label: 'Inicio de Sesión', slug: 'service/req' },  
+						{ label: 'Solicitud de personal', slug: 'service/inicio' }, 
+						{ label: 'Evaluacion Inteligente', slug: 'service/cv' }, 
 					],
 				},
         			

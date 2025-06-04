@@ -1,6 +1,6 @@
 ---
-title: "Introducción - Bóveda Institucional"
-description: "Documentación completa del proyecto Bóveda Institucional - Sistema de gestión documental empresarial con Laravel."
+title: "Introducción - Plataforma RH"
+description: "Documentación completa de la plataforma RH."
 ---
 
 ## Descripción General
